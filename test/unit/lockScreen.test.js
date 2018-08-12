@@ -23,8 +23,12 @@ describe('lock screen', () => {
       userInfoMessage: undefined,
       onUnlocked: undefined,
     };
-    mountedLockScreen = undefined;
   });
+
+  afterEach(() => {
+    mountedLockScreen.unmount();
+    mountedLockScreen = undefined;
+  })
 
   it('always renders a div', () => {
     const divs = lockScreen().find('div');

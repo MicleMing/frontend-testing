@@ -4,9 +4,6 @@ import sinon from 'sinon';
 
 import ClockDisplay from '../../src/components/ClockDisplay';
 
-import { sleep } from '../shared';
-
-
 describe('clock display', async () => {
   let props;
   let mountedClockDisplay;

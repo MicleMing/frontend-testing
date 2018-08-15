@@ -17,6 +17,8 @@ export default class TopOverlay extends React.Component {
       <div
         style={{
           color: "white",
+          fontSize: "44px",
+          textAlign: "center",
           background: "linear-gradient(rgba(85, 85, 85, 0.5), transparent)",
           ...style,
         }}

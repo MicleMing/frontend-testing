@@ -6,7 +6,7 @@ export default class App extends React.Component {
     return (
       <LockScreen
         wallpaperPath="react_wallpaper.png"
-        userInfoMessage="This is Tim's phone. If found, please give it back to him. He will be sad without it"
+        userInfoMessage="front test demo"
         onUnlocked={() => alert("unlocked!")}
       />
     );
